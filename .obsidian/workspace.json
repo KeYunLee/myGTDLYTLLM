@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9d900c5254d3813d",
+        "id": "6f08f18d6254a874",
         "type": "tabs",
         "children": [
           {
-            "id": "79df3b165951f23b",
+            "id": "423ae6b053027a38",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GEMINI.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "新分頁"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GEMINI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GEMINI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GEMINI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,8 +181,22 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "79df3b165951f23b",
+  "active": "423ae6b053027a38",
   "lastOpenFiles": [
+    "30-Wiki/Concepts/TDD.md",
+    "20-Atlas/MOC-DevTools.md",
+    "20-Atlas/MOC-DeepLearning.md",
+    "20-Atlas/Home.md",
+    "20-Atlas/MOC-AITools.md",
+    "20-Atlas/MOC-ModelDeployment.md",
+    "20-Atlas/MOC-LLM.md",
+    "GEMINI.md",
+    "30-Wiki/Concepts/Prompt-Engineering.md",
+    "30-Wiki/Summaries/Linux-cheatsheet.md",
+    "30-Wiki/Concepts/Linux-Bash.md",
+    "30-Wiki/Concepts/虛擬環境管理.md",
+    "30-Wiki/Summaries/Anomaly-detection.md",
+    "templates/summary-template.md",
     "caveman.md",
     "30-Wiki/Concepts/TensorFlow.md",
     "30-Wiki/Summaries/Tensorflow-tutorial.md",
@@ -201,22 +208,8 @@
     "30-Wiki/Concepts/AI模型部署.md",
     "30-Wiki/Concepts/圖像分類.md",
     "30-Wiki/Concepts/Embedding-方法.md",
-    "30-Wiki/Concepts/TDD.md",
     "30-Wiki/Concepts/容器化部署.md",
-    "30-Wiki/Concepts/AI-Coding-Assistant.md",
-    "30-Wiki/Concepts/虛擬環境管理.md",
-    "30-Wiki/Concepts/ONNX.md",
-    "30-Wiki/log.md",
-    "30-Wiki/Concepts/Python基礎.md",
-    "30-Wiki/Concepts/物件偵測.md",
-    "30-Wiki/Concepts/Anomaly-Detection.md",
-    "30-Wiki/Summaries/Anomaly-detection.md",
-    "30-Wiki/Concepts/TensorRT.md",
-    "Concepts/圖像分類.md",
     "Concepts",
-    "20-Atlas/Home.md",
-    "GEMINI.md",
-    "30-Wiki/Concepts/Github-Copilot.md",
     "Clippings"
   ]
 }

@@ -10,7 +10,11 @@ tags: [atlas, home, moc]
 
 ## 🗺️ 主要地圖（MOCs）
 
-- [[MOC-LLM]] — LLM 相關知識地圖
+- [[MOC-LLM]] — 大型語言模型知識地圖
+- [[MOC-DeepLearning]] — 深度學習框架與電腦視覺
+- [[MOC-ModelDeployment]] — 模型部署、加速與容器化
+- [[MOC-AITools]] — AI 輔助開發工具與 Agentic Coding
+- [[MOC-DevTools]] — Python、Linux、TDD 開發工具
 
 ---
 

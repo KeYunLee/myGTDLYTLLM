@@ -72,3 +72,9 @@
 - 更新概念（1 頁）：[[Concepts/PyTorch]]（補充 TensorFlow 對比連結）
 - 更新：`30-Wiki/index.md`（total_pages 29 → 31）
 - 衝突：無
+
+## [2026-09-04] atlas-update | 將 30-Wiki/Concepts 全部 concepts 加入 20-Atlas MOC
+- 新建 MOC：[[20-Atlas/MOC-DeepLearning]]、[[20-Atlas/MOC-ModelDeployment]]、[[20-Atlas/MOC-AITools]]、[[20-Atlas/MOC-DevTools]]
+- 更新：[[20-Atlas/Home]] 加入四個新 MOC 連結
+- 涵蓋概念（20 個）：PyTorch, TensorFlow, Embedding-方法, 圖像分類, 物件偵測, Anomaly-Detection, ONNX, TensorRT, 模型加速與部署, AI模型部署, Docker, 容器化部署, AI-Coding-Assistant, Github-Copilot, Agentic-Coding, Prompt-Engineering, Python基礎, 虛擬環境管理, Linux-Bash, TDD
+- 衝突：無
