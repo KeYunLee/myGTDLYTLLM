@@ -2,7 +2,7 @@
 tags: [concept, onnx, 模型部署, 格式轉換]
 created: 2026-09-04
 updated: 2026-09-04
-source_count: 2
+source_count: 3
 ---
 
 # ONNX（Open Neural Network Exchange）
@@ -32,6 +32,23 @@ torch.onnx.export(
 )
 ```
 
+### YOLOv7 端到端 ONNX 匯出
+YOLOv7 提供 `export.py` 支援 End-to-End 匯出（NMS 包在模型內）：
+```bash
+python3 export.py --weights best.pt --grid --end2end --simplify \
+  --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 \
+  --img-size 640 640 --max-wh 640
+```
+
+| 關鍵參數 | 說明 |
+|---------|------|
+| `--grid` | Grid 輸出，後處理在模型內完成 |
+| `--end2end` | NMS 也包在模型內，輸出即最終偵測結果 |
+| `--simplify` | onnx-simplifier 優化計算圖 |
+| `--topk-all` | 保留最多 N 個偵測框 |
+
+> 額外需安裝：`onnx-graphsurgeon`（NVIDIA 圖優化工具）
+
 ### 驗證與視覺化
 ```bash
 # 驗證模型結構
@@ -55,7 +72,9 @@ python -c "import onnx; onnx.checker.check_model('model.onnx')"
 - 下位：[[Concepts/TensorRT]]（ONNX 的主要下游消費者之一）
 - 下位：[[Concepts/PyTorch]]（主要匯出來源）
 - 上位：[[Concepts/模型加速與部署]]
+- 相關：[[Concepts/物件偵測]]（YOLOv7 → ONNX 實戰）
 
 ## 來源
 - [[Summaries/TensorRT-tutorial]]
 - [[Summaries/Torch-tutorial]]
+- [[Summaries/YOLOv7-to-ONNX]]

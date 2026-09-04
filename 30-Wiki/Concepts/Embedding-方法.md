@@ -1,8 +1,8 @@
 ---
-tags: [concept, embedding, 向量表示, 深度學習, 無監督學習]
+tags: [concept, embedding, 向量表示, 深度學習, 無監督學習, RAG]
 created: 2026-09-04
 updated: 2026-09-04
-source_count: 1
+source_count: 2
 ---
 
 # Embedding 方法（嵌入式表示）
@@ -35,6 +35,13 @@ embedding = F.adaptive_avg_pool2d(features, 1).flatten(1)
 - **BERT / Sentence-BERT**：句子級別 embedding（上下文感知）
 - 應用：語義搜尋、RAG 的 Retrieval 階段
 
+#### 4. RAG 中的 Embedding 策略
+RAG 系統的向量化品質直接決定檢索效果：
+- **嵌入模型選擇**：`text-embedding-ada-002`（OpenAI）或領域微調模型
+- **自適應切分（Adaptive Chunking）**：語義/段落切片，每個 chunk 圍繞單一主題，附加標題、類別等元數據
+- **混合檢索（Hybrid Search）**：BM25 稀疏檢索 + 向量稠密檢索並行，大幅提升召回率
+- **Re-ranking**：Cross-Encoder 或 MMR（Maximal Marginal Relevance）對候選結果重排序
+
 ### 相似度計算
 ```python
 import numpy as np
@@ -66,6 +73,8 @@ distances, indices = index.search(query, k=1)  # 最近鄰搜尋
 - 上位：[[Concepts/Anomaly-Detection]]（Embedding-based 是異常偵測的主流方法之一）
 - 相關：[[Concepts/PyTorch]]（Embedding 通常以 PyTorch 模型提取）
 - 相關：[[Concepts/模型加速與部署]]（Embedding 推論常需加速）
+- 相關：[[Concepts/RAG]]（RAG 系統的核心向量化技術）
 
 ## 來源
 - [[Summaries/Anomaly-detection]]
+- [[Summaries/RAG-技術優化]]

@@ -78,3 +78,55 @@
 - 更新：[[20-Atlas/Home]] 加入四個新 MOC 連結
 - 涵蓋概念（20 個）：PyTorch, TensorFlow, Embedding-方法, 圖像分類, 物件偵測, Anomaly-Detection, ONNX, TensorRT, 模型加速與部署, AI模型部署, Docker, 容器化部署, AI-Coding-Assistant, Github-Copilot, Agentic-Coding, Prompt-Engineering, Python基礎, 虛擬環境管理, Linux-Bash, TDD
 - 衝突：無
+
+---
+
+## [2026-09-04] ingest | 40-Raw/Web_Clippings 新增 4 個素材
+
+- 摘要頁（4 頁）：
+  - [[Summaries/OpenClaude-RPA]]
+  - [[Summaries/RAG-技術優化]]
+  - [[Summaries/YOLO-SAHI]]
+  - [[Summaries/YOLOv7-to-ONNX]]
+- 新建概念（2 頁）：
+  - [[Concepts/RAG]]（RAG 系統架構、混合檢索、Reflexion 反思模式）
+  - [[Concepts/RPA-Agentic]]（OpenClaude、視覺-動作迴圈、Windows Control Skill）
+- 更新概念（3 頁）：
+  - [[Concepts/物件偵測]]（補充 YOLO11、SAHI 切片推論）
+  - [[Concepts/ONNX]]（補充 YOLOv7 端到端 ONNX 匯出參數）
+  - [[Concepts/Embedding-方法]]（補充 RAG 向量嵌入策略、混合檢索、Re-ranking）
+- 更新：`30-Wiki/index.md`（total_pages 31 → 37）
+- 衝突：無
+
+---
+
+## [2026-09-05] process-inbox | 11-Inbox 四個素材（略過 auto_cluster）
+
+- 分類：跨日專案 → 新建 `13-Projects/` 三個檔案
+  - [[13-Projects/PHM系統]]（來源：PHM架構圖.md + PHM維運.md）
+  - [[13-Projects/Vision-AI平台]]（來源：Vision AI 平台開發手冊.md）
+  - [[13-Projects/頤康照護場域]]（來源：頤康照護場域.md）
+- 新建概念（3 頁）：
+  - [[Concepts/PHM]]（預測性設備維護：Pipeline、記憶體管理、RabbitMQ 維運）
+  - [[Concepts/FastAPI]]（推論封裝、threading.Lock、Docker + GitLab CI）
+  - [[Concepts/Action-Recognition]]（Openpose + Multi Object Tracker + DDNet）
+- 更新概念（1 頁）：
+  - [[Concepts/容器化部署]]（補充 Vision AI GitLab CI + ACR + NodeRED 部署模式）
+- 更新：`30-Wiki/index.md`（total_pages 37 → 40）
+- 略過：`auto_cluster 程式流程圖.md`（使用者指定暫不處理）
+- 衝突：無
+
+---
+
+## [2026-09-05] ingest | 40-Raw/Web_Clippings 新增 4 個素材（LLM Wiki + Obsidian SOP）
+
+- 摘要頁（2 頁）：
+  - [[Summaries/LLM-Wiki-Pattern]]（合併 3 個素材：Karpathy gist + 104職場力 + 卡片盒筆記法實測）
+  - [[Summaries/Obsidian-Claude-Code-SOP]]（恆遠數位科技 7 步驟 SOP）
+- 新建概念（2 頁）：
+  - [[Concepts/LLM-Wiki-Pattern]]（三層架構、ingest/query/lint、RAG vs Wiki、Model Collapse 風險）
+  - [[Concepts/第二大腦-PKM]]（Zettelkasten / LYT / PARA / LLM Wiki 四大方法論比較）
+- 更新概念（1 頁）：
+  - [[Concepts/RAG]]（補充 RAG vs LLM Wiki Pattern 對比表格）
+- 更新：`30-Wiki/index.md`（total_pages 40 → 44）
+- 衝突：無

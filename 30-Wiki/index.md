@@ -1,12 +1,12 @@
 ---
 tags: [wiki, index]
-updated: 2026-09-04
-total_pages: 31
+updated: 2026-09-05
+total_pages: 44
 ---
 
 # Wiki 知識總目錄
 
-> 最後更新：2026-09-04 | 頁面總數：31
+> 最後更新：2026-09-05 | 頁面總數：44
 > 
 > ⚠️ 本文件由 AI 自動維護，請勿手動編輯。每次 Ingest 後 AI 會自動更新。
 
@@ -36,6 +36,13 @@ total_pages: 31
 | [[Concepts/圖像分類]] | 圖像分類：ResNet / ViT / 遷移學習、與物件偵測的區別 | 圖像分類, AI模型 | 1 |
 | [[Concepts/AI模型部署]] | AI 模型部署全流程：雲端/邊緣/行動、效能指標、量化優化 | 模型部署, mlops | 1 |
 | [[Concepts/TensorFlow]] | 深度學習框架：Jetson 安裝、GPU 記憶體成長型策略、與 PyTorch 比較 | tensorflow, 深度學習, jetson | 1 |
+| [[Concepts/RAG]] | 檢索增強生成：混合檢索、Reflexion 反思迴圈、Re-ranking、自適應切分 | RAG, LLM, embedding | 1 |
+| [[Concepts/RPA-Agentic]] | AI 代理式 RPA：OpenClaude、視覺-動作迴圈、Windows Control Skill | rpa, agentic-coding, AI工具 | 1 |
+| [[Concepts/PHM]] | 預測性設備維護：GreenPlum/MSSQL Pipeline、記憶體管理、RabbitMQ 維運 | PHM, 工業AI, mlops | 2 |
+| [[Concepts/FastAPI]] | FastAPI Web 服務：推論封裝、threading.Lock、Docker + GitLab CI 部署 | fastapi, python, 模型部署 | 1 |
+| [[Concepts/Action-Recognition]] | 動作識別：Openpose 骨架 + Multi Object Tracker + DDNet 訓練 | action-recognition, 深度學習 | 1 |
+| [[Concepts/LLM-Wiki-Pattern]] | Karpathy LLM Wiki：知識複利架構、三層設計、ingest/query/lint | LLM, 知識管理, PKM | 3 |
+| [[Concepts/第二大腦-PKM]] | 個人知識管理：Zettelkasten / LYT / PARA / LLM Wiki 方法論比較 | PKM, 知識管理, obsidian | 2 |
 
 ---
 
@@ -54,4 +61,10 @@ total_pages: 31
 | [[Summaries/grill-me-workflow]] | [[40-Raw/Web_Clippings/grill-me]] | 2026-09-04 |
 | [[Summaries/圖片分類與物件偵測]] | [[40-Raw/Web_Clippings/圖片分類與物件偵測]] | 2026-09-04 |
 | [[Summaries/Tensorflow-tutorial]] | [[40-Raw/Web_Clippings/Tensorflow tutorial]] | 2026-09-04 |
+| [[Summaries/OpenClaude-RPA]] | [[40-Raw/Web_Clippings/OpenClaude]] | 2026-09-04 |
+| [[Summaries/RAG-技術優化]] | [[40-Raw/Web_Clippings/RAG 技術]] | 2026-09-04 |
+| [[Summaries/YOLO-SAHI]] | [[40-Raw/Web_Clippings/YOLO 物件偵測]] | 2026-09-04 |
+| [[Summaries/YOLOv7-to-ONNX]] | [[40-Raw/Web_Clippings/yolov7-to-onnx]] | 2026-09-04 |
+| [[Summaries/LLM-Wiki-Pattern]] | [[40-Raw/Web_Clippings/llm-wiki]] + 104職場力 + 卡片盒筆記法實測 | 2026-09-05 |
+| [[Summaries/Obsidian-Claude-Code-SOP]] | [[40-Raw/Web_Clippings/Obsidian + Claude Code 第二大腦完整建置]] | 2026-09-05 |
 
