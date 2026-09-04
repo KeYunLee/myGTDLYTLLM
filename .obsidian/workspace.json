@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f08f18d6254a874",
+        "id": "382263ed755bd399",
         "type": "tabs",
         "children": [
           {
-            "id": "423ae6b053027a38",
+            "id": "51331a96955b06b5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,12 +181,14 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "423ae6b053027a38",
+  "active": "51331a96955b06b5",
   "lastOpenFiles": [
+    "10-Action/12-Daily/2026-09-04.md",
+    "未命名.canvas",
+    "20-Atlas/Home.md",
     "30-Wiki/Concepts/TDD.md",
     "20-Atlas/MOC-DevTools.md",
     "20-Atlas/MOC-DeepLearning.md",
-    "20-Atlas/Home.md",
     "20-Atlas/MOC-AITools.md",
     "20-Atlas/MOC-ModelDeployment.md",
     "20-Atlas/MOC-LLM.md",
@@ -208,7 +210,6 @@
     "30-Wiki/Concepts/AI模型部署.md",
     "30-Wiki/Concepts/圖像分類.md",
     "30-Wiki/Concepts/Embedding-方法.md",
-    "30-Wiki/Concepts/容器化部署.md",
     "Concepts",
     "Clippings"
   ]
