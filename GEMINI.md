@@ -12,7 +12,7 @@
 |--------|------|------|
 | `10-Action/` | GTD 行動（Inbox、Daily、Projects） | 人類 |
 | `20-Atlas/` | LYT MOC 導航地圖 | 人類建，AI 可建議 |
-| `30-Wiki/` | 知識編譯（index、log、Concepts、Entities、Summaries、Comparisons） | AI |
+| `30-Wiki/` | 知識編譯（index、log、Concepts、Summaries） | AI |
 | `40-Raw/` | 原始素材（Papers、Web、notes、assets） | 人類放，AI 讀 |
 | `50-Artifacts/` | 產出物（Reports、Articles、Slides） | AI 起草，人類審 |
 | `templates/` | 模板庫 | — |
@@ -41,7 +41,7 @@
 ### Ingest（處理素材）
 1. 讀 `40-Raw/` 目標素材
 2. 建 `30-Wiki/Summaries/` 摘要頁
-3. 更新相關 `Concepts/` 與 `Entities/`（5–15 頁）
+3. 更新相關 `Concepts/`（5–15 頁）
 4. 衝突 → `log.md` 標記 `[CONFLICT]`
 5. 更新 `30-Wiki/index.md`
 6. 追加 `30-Wiki/log.md`
@@ -55,9 +55,9 @@
 ```
 
 ### Query（查詢）
-1. 讀 `index.md` → 相關 `Concepts/` / `Entities/`
+1. 讀 `index.md` → 相關 `Concepts/`
 2. 生成答案附引用連結
-3. 有價值 → 提議存入 `Comparisons/` 或 `50-Artifacts/`
+3. 有價值 → 提議存入 `50-Artifacts/`
 
 ### Lint（健康檢查）
 掃孤立頁、矛盾觀點、缺卡概念、建議主題 → 產出 `50-Artifacts/Reports/wiki-health-YYYY-MM-DD.md`
@@ -75,12 +75,8 @@
 
 ## Concepts
 | 頁面 | 摘要 | 標籤 | 來源數 |
-## Entities
-| 頁面 | 類型 | 摘要 |
 ## Summaries
 | 頁面 | 原始素材 | 日期 |
-## Comparisons
-| 頁面 | 比較對象 |
 ```
 
 ## Concept 卡片模板（`30-Wiki/Concepts/概念名稱.md`）
@@ -115,4 +111,4 @@ source_count: N
 - 所有頁面須 Obsidian 相容
 
 ---
-*v1.1 | 2026-09-04*
+*v1.2 | 2026-09-04*

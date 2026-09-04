@@ -11,10 +11,14 @@
             "id": "79df3b165951f23b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "GEMINI.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "GEMINI"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GEMINI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GEMINI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "GEMINI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,8 +188,9 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "2be1e0a470c00514",
+  "active": "79df3b165951f23b",
   "lastOpenFiles": [
+    "caveman.md",
     "30-Wiki/Concepts/TensorFlow.md",
     "30-Wiki/Summaries/Tensorflow-tutorial.md",
     "40-Raw/Web_Clippings/Tensorflow tutorial.md",
@@ -209,7 +217,6 @@
     "20-Atlas/Home.md",
     "GEMINI.md",
     "30-Wiki/Concepts/Github-Copilot.md",
-    "30-Wiki/Concepts/Agentic-Coding.md",
     "Clippings"
   ]
 }

@@ -39,14 +39,6 @@ total_pages: 31
 
 ---
 
-## Entities（實體頁面）
-
-| 頁面 | 類型 | 摘要 |
-|------|------|------|
-| *(尚無實體頁)* | | |
-
----
-
 ## Summaries（文獻摘要）
 
 | 頁面 | 原始素材 | 日期 |
@@ -63,10 +55,3 @@ total_pages: 31
 | [[Summaries/圖片分類與物件偵測]] | [[40-Raw/Web_Clippings/圖片分類與物件偵測]] | 2026-09-04 |
 | [[Summaries/Tensorflow-tutorial]] | [[40-Raw/Web_Clippings/Tensorflow tutorial]] | 2026-09-04 |
 
----
-
-## Comparisons（比較分析）
-
-| 頁面 | 比較對象 |
-|------|---------| 
-| *(尚無比較頁面)* | |

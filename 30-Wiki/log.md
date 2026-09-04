@@ -4,6 +4,12 @@
 > 格式：`## [YYYY-MM-DD] <操作類型> | <標題>`
 > 操作類型：`ingest` / `query` / `lint` / `weekly-review` / `init`
 
+## [2026-09-04] cleanup | 移除 Entities/ 與 Comparisons/ 類別
+- 操作：刪除空目錄 `30-Wiki/Entities/`、`30-Wiki/Comparisons/`
+- 更新：`30-Wiki/index.md`（移除兩個空 section）
+- 更新：`GEMINI.md` v1.2（架構表、Ingest、Query、index 格式模板）
+- 原因：兩目錄自 init 後從未使用，符合 caveman 原則——廢物刪掉
+
 ---
 
 ## [2026-09-04] init | 知識庫初始化
