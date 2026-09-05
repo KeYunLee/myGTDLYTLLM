@@ -1,7 +1,7 @@
 ---
 tags: [atlas, moc, AI工具, coding-assistant, agentic-coding]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 ---
 
 # 🤖 MOC-AITools — AI 輔助開發工具地圖
@@ -25,6 +25,7 @@ updated: 2026-09-04
 > 以 Agent 方式自動化開發任務
 
 - [[30-Wiki/Concepts/Agentic-Coding]] — Agentic Coding 的概念、模式與工具
+- [[30-Wiki/Concepts/RPA-Agentic]] — AI 代理式 RPA：視覺-動作迴圈、OpenClaude
 
 ---
 

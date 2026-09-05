@@ -1,6 +1,6 @@
 ---
 tags: [atlas, moc, llm]
-updated: 2026-09-04
+updated: 2026-09-05
 ---
 
 # 🗺️ MOC-LLM — 大型語言模型知識地圖
@@ -36,10 +36,19 @@ updated: 2026-09-04
 
 > LLM 的工程應用
 
-- [[30-Wiki/Concepts/RAG]] *(待建立)* — 檢索增強生成
+- [[30-Wiki/Concepts/RAG]] — 檢索增強生成
 - [[30-Wiki/Concepts/Prompt-Engineering]] — 提示工程
 - [[30-Wiki/Concepts/Agent]] *(待建立)* — LLM 智能體
 - [[30-Wiki/Concepts/Function-Calling]] *(待建立)* — 函數調用
+
+---
+
+## 🧠 知識管理與 PKM
+
+> LLM 輔助下的個人知識系統
+
+- [[30-Wiki/Concepts/LLM-Wiki-Pattern]] — Karpathy 式 LLM Wiki 知識複利架構
+- [[30-Wiki/Concepts/第二大腦-PKM]] — 個人知識管理方法論：Zettelkasten / LYT / PARA
 
 ---
 

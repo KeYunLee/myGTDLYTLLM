@@ -1,7 +1,7 @@
 ---
 tags: [atlas, moc, 模型部署, mlops, devops]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 ---
 
 # 🚀 MOC-ModelDeployment — 模型部署知識地圖
@@ -35,6 +35,14 @@ updated: 2026-09-04
 
 - [[30-Wiki/Concepts/Docker]] — Docker 核心概念與使用
 - [[30-Wiki/Concepts/容器化部署]] — 容器化模型服務的實踐方式
+
+---
+
+## 🏭 工業 AI 應用
+
+> 工業場域的 AI 落地與 MLOps 維運
+
+- [[30-Wiki/Concepts/PHM]] — 預測性設備維護：GreenPlum / MSSQL Pipeline、RabbitMQ 維運
 
 ---
 

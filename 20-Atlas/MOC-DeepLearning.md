@@ -1,7 +1,7 @@
 ---
 tags: [atlas, moc, 深度學習, AI模型]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 ---
 
 # 🧠 MOC-DeepLearning — 深度學習知識地圖
@@ -35,6 +35,7 @@ updated: 2026-09-04
 - [[30-Wiki/Concepts/圖像分類]] — 影像分類任務的方法與模型
 - [[30-Wiki/Concepts/物件偵測]] — 目標偵測任務：YOLO、DETR 等
 - [[30-Wiki/Concepts/Anomaly-Detection]] — 無監督異常偵測方法
+- [[30-Wiki/Concepts/Action-Recognition]] — 動作識別：骨架估計 + 時序分析
 
 ---
 

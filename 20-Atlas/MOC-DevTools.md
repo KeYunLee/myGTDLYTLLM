@@ -1,7 +1,7 @@
 ---
 tags: [atlas, moc, 開發工具, python, linux]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 ---
 
 # 🔧 MOC-DevTools — 開發工具與環境地圖
@@ -25,6 +25,14 @@ updated: 2026-09-04
 > 命令列與系統操作
 
 - [[30-Wiki/Concepts/Linux-Bash]] — Linux Bash 指令與腳本撰寫
+
+---
+
+## 🌐 Web 服務
+
+> API 設計與後端服務
+
+- [[30-Wiki/Concepts/FastAPI]] — FastAPI 建構推論 API 服務、Docker 部署
 
 ---
 
